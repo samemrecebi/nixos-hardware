@@ -7,7 +7,7 @@
   imports = [
     ../../common/cpu/intel
     ../../common/cpu/intel/comet-lake
-    ../../common/gpu/nvidia
+    #../../common/gpu/nvidia
     #../../common/gpu/nvidia/prime-sync.nix
     ../../common/hidpi.nix
     ../../common/pc/laptop

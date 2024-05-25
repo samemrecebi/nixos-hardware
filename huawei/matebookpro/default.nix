@@ -24,5 +24,5 @@
     };
   };
 
-  services.tlp.enable = lib.mkDefault true;
+  services.power-profiles-daemon.enable = lib.mkDefault true;
 }

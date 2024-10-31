@@ -5,15 +5,12 @@
     ../../../../../lenovo/thinkpad/z/gen2
   ];
 
-  sound.extraConfig = ''
-    pcm.!default {
-        type plug
-        slave.pcm "hw:1,0"
-    }
+  environment.etc."asound.conf".source = ./asound.conf;
 
-    ctl.!default {
-        type hw
-        card 1
+  networking.networkmanager.fccUnlockScripts = [
+    {
+      id = "2c7c:030a";
+      path = "${pkgs.modemmanager}/share/ModemManager/fcc-unlock.available.d/2c7c:030a";
     }
-  '';
+  ];
 }

@@ -10,8 +10,11 @@
     ../../common/cpu/amd/pstate.nix
     ../../common/gpu/nvidia
     ../../common/gpu/nvidia/prime.nix
+    ../../common/gpu/nvidia/turing
+    ../../common/gpu/24.05-compat.nix
     ../../common/pc/laptop
     ../../common/pc/ssd
+    ../../common/hidpi.nix
   ];
 
   boot.kernelPackages = lib.mkIf (lib.versionOlder pkgs.linux.version "6.6") pkgs.linuxPackages_latest;
@@ -30,8 +33,6 @@
   };
 
   hardware.nvidia = {
-    modesetting.enable = lib.mkDefault true;
-    open = lib.mkDefault true;
     nvidiaSettings = lib.mkDefault true;
     prime = {
       amdgpuBusId = "PCI:54:0:0";

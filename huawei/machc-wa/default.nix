@@ -1,12 +1,8 @@
-{
-  lib,
-  pkgs,
-  config,
-  ...
-}: {
+{lib, ...}: {
   imports = [
     ../../common/cpu/intel/comet-lake
     ../../common/gpu/nvidia
+    ../../common/gpu/nvidia/pascal
     ../../common/gpu/nvidia/prime.nix
     ../../common/hidpi.nix
     ../../common/pc/laptop
@@ -14,14 +10,10 @@
   ];
 
   hardware.nvidia = {
-    modesetting.enable = lib.mkDefault true;
-    open = lib.mkDefault false;
     nvidiaSettings = lib.mkDefault true;
     prime = {
       intelBusId = "PCI:0:2:0";
       nvidiaBusId = "PCI:1:0:0";
     };
   };
-
-  services.power-profiles-daemon.enable = lib.mkDefault true;
 }

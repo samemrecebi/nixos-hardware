@@ -21,6 +21,7 @@
         apple-macbook-pro = import ./apple/macbook-pro;
         apple-macbook-pro-8-1 = import ./apple/macbook-pro/8-1;
         apple-macbook-pro-10-1 = import ./apple/macbook-pro/10-1;
+        apple-macbook-pro-11-1 = import ./apple/macbook-pro/11-1;
         apple-macbook-pro-11-5 = import ./apple/macbook-pro/11-5;
         apple-macbook-pro-12-1 = import ./apple/macbook-pro/12-1;
         apple-macbook-pro-14-1 = import ./apple/macbook-pro/14-1;
@@ -106,6 +107,7 @@
         framework-11th-gen-intel = import ./framework/13-inch/11th-gen-intel;
         framework-12th-gen-intel = import ./framework/13-inch/12th-gen-intel;
         framework-13th-gen-intel = import ./framework/13-inch/13th-gen-intel;
+        framework-intel-core-ultra-series1 = import ./framework/13-inch/intel-core-ultra-series1;
         framework-13-7040-amd = import ./framework/13-inch/7040-amd;
         framework-16-7040-amd = import ./framework/16-inch/7040-amd;
         friendlyarm-nanopc-t4 = import ./friendlyarm/nanopc-t4;
@@ -132,6 +134,7 @@
         lenovo-ideapad-15arh05 = import ./lenovo/ideapad/15arh05;
         lenovo-ideapad-15ach6 = import ./lenovo/ideapad/15ach6;
         lenovo-ideapad-16ach6 = import ./lenovo/ideapad/16ach6;
+        lenovo-ideapad-16ahp9 = import ./lenovo/ideapad/16ahp9;
         lenovo-ideapad-z510 = import ./lenovo/ideapad/z510;
         lenovo-ideapad-slim-5 = import ./lenovo/ideapad/slim-5;
         lenovo-ideapad-s145-15api = import ./lenovo/ideapad/s145-15api;
@@ -147,6 +150,7 @@
         lenovo-legion-16arha7 = import ./lenovo/legion/16arha7;
         lenovo-legion-16ithg6 = import ./lenovo/legion/16ithg6;
         lenovo-legion-16irx8h = import ./lenovo/legion/16irx8h;
+        lenovo-legion-16irx9h = import ./lenovo/legion/16irx9h;
         lenovo-legion-t526amr5 = import ./lenovo/legion/t526amr5;
         lenovo-legion-y530-15ich = import ./lenovo/legion/15ich;
         lenovo-thinkpad = import ./lenovo/thinkpad;
@@ -245,6 +249,7 @@
         microsoft-surface-pro-3 = import ./microsoft/surface-pro/3;
         microsoft-surface-pro-9 = import ./microsoft/surface-pro/9;
         milkv-pioneer = import ./milkv/pioneer;
+        minisforum-v3 = import ./minisforum/v3;
         morefine-m600 = import ./morefine/m600;
         msi-b350-tomahawk = import ./msi/b350-tomahawk;
         msi-b550-a-pro = import ./msi/b550-a-pro;
@@ -325,7 +330,7 @@
         common-pc = import ./common/pc;
         common-pc-hdd = import ./common/pc/hdd;
         common-pc-laptop = import ./common/pc/laptop;
-        common-pc-laptop-acpi_call = import ./common/pc/laptop/acpi_call.nix;
+        common-pc-laptop-acpi_call = throw "common-pc-laptop-acpi_call has been removed because it is obsolete: https://github.com/NixOS/nixos-hardware/issues/1114";
         common-pc-laptop-hdd = import ./common/pc/laptop/hdd;
         common-pc-laptop-ssd = import ./common/pc/ssd;
         common-pc-ssd = import ./common/pc/ssd;

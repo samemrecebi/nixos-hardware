@@ -2,19 +2,19 @@
 , ... } @ args:
 
 let
-  version = "6.11";
-  majorVersion = with lib; (elemAt (take 1 (splitVersion version)) 0);
+  version = "6.12.2";
+  majorVersion = lib.elemAt (lib.take 1 (lib.splitVersion version)) 0;
 
   patchRepo = fetchFromGitHub {
     owner = "t2linux";
     repo = "linux-t2-patches";
-    rev = "54b4f914930d92cf0b94601b402ec93f54a76390";
-    hash = "sha256-mpGWcx+zE5kb5USE4CPGrrleZRNGxVUGxc9eQY5IIfY=";
+    rev = "539eea1f9127f1623794ee8c7ccc37e8b00f60a3";
+    hash = "sha256-pFeNOLTqnEupyEZDk+fX/5GFpobvN+L7Wv2K6V5Xx9g=";
   };
 
   kernel = fetchzip {
     url = "mirror://kernel/linux/kernel/v${majorVersion}.x/linux-${version}.tar.xz";
-    hash = "sha256-QIbHTLWI5CaStQmuoJ1k7odQUDRLsWNGY10ek0eKo8M=";
+    hash = "sha256-2xfXs++pJiNgFCdpfYsNy3HE6rCyztbOwAlMObLCgAI=";
   };
 in
 buildLinux (args // {
@@ -22,7 +22,7 @@ buildLinux (args // {
 
   pname = "linux-t2";
   # Snippet from nixpkgs
-  modDirVersion = with lib; "${concatStringsSep "." (take 3 (splitVersion "${version}.0"))}";
+  modDirVersion = "${lib.concatStringsSep "." (lib.take 3 (lib.splitVersion "${version}.0"))}";
 
   src = runCommand "patched-source" {} ''
     cp -r ${kernel} $out

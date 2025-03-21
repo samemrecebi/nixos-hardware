@@ -66,6 +66,7 @@
         dell-inspiron-5515 = import ./dell/inspiron/5515;
         dell-inspiron-7405 = import ./dell/inspiron/7405;
         dell-inspiron-7460 = import ./dell/inspiron/7460;
+        dell-inspiron-7559 = import ./dell/inspiron/7559;
         dell-latitude-3340 = import ./dell/latitude/3340;
         dell-latitude-3480 = import ./dell/latitude/3480;
         dell-latitude-5490 = import ./dell/latitude/5490;
@@ -173,6 +174,7 @@
         lenovo-thinkpad-a475 = import ./lenovo/thinkpad/a475;
         lenovo-thinkpad-e14-amd = import ./lenovo/thinkpad/e14/amd;
         lenovo-thinkpad-e14-intel = import ./lenovo/thinkpad/e14/intel;
+        lenovo-thinkpad-e15-intel = import ./lenovo/thinkpad/e15/intel;
         lenovo-thinkpad-e470 = import ./lenovo/thinkpad/e470;
         lenovo-thinkpad-e495 = import ./lenovo/thinkpad/e495;
         lenovo-thinkpad-l13 = import ./lenovo/thinkpad/l13;
@@ -326,6 +328,7 @@
         tuxedo-aura-15-gen1 = import ./tuxedo/aura/15/gen1;
         tuxedo-infinitybook-v4 = import ./tuxedo/infinitybook/v4;
         tuxedo-infinitybook-pro14-gen7 = import ./tuxedo/infinitybook/pro14/gen7;
+        tuxedo-infinitybook-pro14-gen9-intel = import ./tuxedo/infinitybook/pro14/gen9-intel;
         tuxedo-pulse-14-gen3 = import ./tuxedo/pulse/14/gen3;
         tuxedo-pulse-15-gen2 = import ./tuxedo/pulse/15/gen2;
         xiaomi-redmibook-16-pro-2024 = import ./xiaomi/redmibook/16-pro-2024;

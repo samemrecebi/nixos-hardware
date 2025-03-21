@@ -120,12 +120,13 @@ See code for all available configurations.
 | [Deciso DEC series](deciso/dec)                                                   | `<nixos-hardware/deciso/dec>`                           |
 | [Dell G3 3779](dell/g3/3779)                                                      | `<nixos-hardware/dell/g3/3779>`                         |
 | [Dell G3 3579](dell/g3/3579)                                                      | `<nixos-hardware/dell/g3/3579>`                         |
-| [Dell Inspiron 3442](dell/inspiron/3442)                                       | `<nixos-hardawre/dell/inspiron/3442>`                |
-| [Dell Inspiron 14 5420](dell/inspiron/14-5420)                                    | `<nixos-hardawre/dell/inspiron/14-5420>`                |
+| [Dell Inspiron 3442](dell/inspiron/3442)                                          | `<nixos-hardware/dell/inspiron/3442>`                   |
+| [Dell Inspiron 14 5420](dell/inspiron/14-5420)                                    | `<nixos-hardware/dell/inspiron/14-5420>`                |
 | [Dell Inspiron 5509](dell/inspiron/5509)                                          | `<nixos-hardware/dell/inspiron/5509>`                   |
 | [Dell Inspiron 5515](dell/inspiron/5515)                                          | `<nixos-hardware/dell/inspiron/5515>`                   |
 | [Dell Inspiron 7405](dell/inspiron/7405)                                          | `<nixos-hardware/dell/inspiron/7405>`                   |
 | [Dell Inspiron 7460](dell/inspiron/7460)                                          | `<nixos-hardware/dell/inspiron/7460>`                   |
+| [Dell Inspiron 7559](dell/inspiron/7559)                                          | `<nixos-hardware/dell/inspiron/7559>`                   |
 | [Dell Latitude 3340](dell/latitude/3340)                                          | `<nixos-hardware/dell/latitude/3340>`                   |
 | [Dell Latitude 3480](dell/latitude/3480)                                          | `<nixos-hardware/dell/latitude/3480>`                   |
 | [Dell Latitude 5490](dell/latitude/5490)                                          | `<nixos-hardware/dell/latitude/5490>`                   |
@@ -230,6 +231,7 @@ See code for all available configurations.
 | [Lenovo ThinkPad A475](lenovo/thinkpad/a475)                                      | `<nixos-hardware/lenovo/thinkpad/a475>`                 |
 | [Lenovo ThinkPad E14 (AMD)](lenovo/thinkpad/e14/amd)                              | `<nixos-hardware/lenovo/thinkpad/e14/amd>`              |
 | [Lenovo ThinkPad E14 (Intel)](lenovo/thinkpad/e14/intel)                          | `<nixos-hardware/lenovo/thinkpad/e14/intel>`            |
+| [Lenovo ThinkPad E15 (Intel)](lenovo/thinkpad/e15/intel)                          | `<nixos-hardware/lenovo/thinkpad/e15/intel>`            |
 | [Lenovo ThinkPad E470](lenovo/thinkpad/e470)                                      | `<nixos-hardware/lenovo/thinkpad/e470>`                 |
 | [Lenovo ThinkPad E495](lenovo/thinkpad/e495)                                      | `<nixos-hardware/lenovo/thinkpad/e495>`                 |
 | [Lenovo ThinkPad L13 Yoga](lenovo/thinkpad/l13/yoga)                              | `<nixos-hardware/lenovo/thinkpad/l13/yoga>`             |
@@ -309,8 +311,8 @@ See code for all available configurations.
 | [LENOVO Yoga 6 13ALC6 82ND](lenovo/yoga/6/13ALC6)                                 | `<nixos-hardware/lenovo/yoga/6/13ALC6>`                 |
 | [LENOVO Yoga Slim 7 Pro-X 14ARH7 82ND](lenovo/yoga/7/14ARH7/amdgpu)               | `<nixos-hardware/lenovo/yoga/7/14ARH7/amdgpu>`          |
 | [LENOVO Yoga Slim 7 Pro-X 14ARH7 82ND](lenovo/yoga/7/14ARH7/nvidia)               | `<nixos-hardware/lenovo/yoga/7/14ARH7/nvidia>`          |
-| [Lenovo Yoga Slim 7i Pro X 14IAH7 (Integrated)](lenovo/yoga/7/14IAH7/integrated)  |`<nixos-hardware/lenovo/yoga/7/14IAH7/integrated>`       |
-| [Lenovo Yoga Slim 7i Pro X 14IAH7 (Hybrid)](lenovo/yoga/7/14IAH7/hybrid)          |`<nixos-hardware/lenovo/yoga/7/14IAH7/hybrid>`           |
+| [Lenovo Yoga Slim 7i Pro X 14IAH7 (Integrated)](lenovo/yoga/7/14IAH7/integrated)  | `<nixos-hardware/lenovo/yoga/7/14IAH7/integrated>`      |
+| [Lenovo Yoga Slim 7i Pro X 14IAH7 (Hybrid)](lenovo/yoga/7/14IAH7/hybrid)          | `<nixos-hardware/lenovo/yoga/7/14IAH7/hybrid>`          |
 | [LENOVO Yoga 7 Slim Gen8](lenovo/yoga/7/slim/gen8)                                | `<nixos-hardware/lenovo/yoga/7/slim/gen8>`              |
 | [MSI B550-A PRO](msi/b550-a-pro)                                                  | `<nixos-hardware/msi/b550-a-pro>`                       |
 | [MSI B350 TOMAHAWK](msi/b350-tomahawk)                                            | `<nixos-hardware/msi/b350-tomahawk>`                    |
@@ -373,6 +375,7 @@ See code for all available configurations.
 | [Tuxedo InfinityBook v4](tuxedo/infinitybook/v4)                                  | `<nixos-hardware/tuxedo/infinitybook/v4>`               |
 | [TUXEDO Aura 15 - Gen1](tuxedo/aura/15/gen1)                                      | `<nixos-hardware/tuxedo/aura/15/gen1>`                  |
 | [TUXEDO InfinityBook Pro 14 - Gen7](tuxedo/infinitybook/pro14/gen7)               | `<nixos-hardware/tuxedo/infinitybook/pro14/gen7>`       |
+| [TUXEDO InfinityBook Pro 14 - Gen9 - INTEL](tuxedo/infinitybook/pro14/gen9-intel) | `<nixos-hardware/tuxedo/infinitybook/pro14/gen9-intel>` |
 | [TUXEDO Pulse 14 - Gen3](tuxedo/pulse/14/gen3)                                    | `<nixos-hardware/tuxedo/pulse/14/gen3>`                 |
 | [TUXEDO Pulse 15 - Gen2](tuxedo/pulse/15/gen2)                                    | `<nixos-hardware/tuxedo/pulse/15/gen2>`                 |
 | [Xiaomi Redmibook 16 Pro 2024](xiaomi/redmibook/16-pro-2024)                      | `<nixos-hardware/xiaomi/redmibook/16-pro-2024>`         |

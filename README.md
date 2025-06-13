@@ -97,6 +97,7 @@ See code for all available configurations.
 | [Asus ROG Flow X13 GV302X\* (2023)](asus/flow/gv302x/amdgpu)                      | `<nixos-hardware/asus/flow/gv302x/amdgpu>`              |
 | [Asus ROG Flow X13 GV302X\* (2023)](asus/flow/gv302x/nvidia)                      | `<nixos-hardware/asus/flow/gv302x/nvidia>`              |
 | [Asus ROG Strix G513IM](asus/rog-strix/g513im)                                    | `<nixos-hardware/asus/rog-strix/g513im>`                |
+| [Asus ROG Strix G533ZW](asus/rog-strix/g533zw)                                    | `<nixos-hardware/asus/rog-strix/g533zw>`                |
 | [Asus ROG Strix G713IE](asus/rog-strix/g713ie)                                    | `<nixos-hardware/asus/rog-strix/g713ie>`                |
 | [Asus ROG Strix G733QS](asus/rog-strix/g733qs)                                    | `<nixos-hardware/asus/rog-strix/g733qs>`                |
 | [Asus ROG Strix X570-E GAMING](asus/rog-strix/x570e)                              | `<nixos-hardware/asus/rog-strix/x570e>`                 |
@@ -113,6 +114,8 @@ See code for all available configurations.
 | [Asus TUF FA506IC](asus/fa506ic)                                                  | `<nixos-hardware/asus/fa506ic>`                         |
 | [Asus TUF FA507RM](asus/fa507rm)                                                  | `<nixos-hardware/asus/fa507rm>`                         |
 | [Asus TUF FA507NV](asus/fa507nv)                                                  | `<nixos-hardware/asus/fa507nv>`                         |
+| [Asus Zenbook Duo 14 UX481](asus/zenbook/ux481/intelgpu/)                         | `<nixos-hardware/asus/zenbook/ux481/intelgpu>`          |
+| [Asus Zenbook Duo 14 UX481](asus/zenbook/ux481/nvidia/)                           | `<nixos-hardware/asus/zenbook/ux481/nvidia>`            |
 | [Asus Zenbook Flip S13 UX371](asus/zenbook/ux371/)                                | `<nixos-hardware/asus/zenbook/ux371>`                   |
 | [Asus Zenbook Pro 15 UX535](asus/zenbook/ux535/)                                  | `<nixos-hardware/asus/zenbook/ux535>`                   |
 | [BeagleBoard PocketBeagle](beagleboard/pocketbeagle)                              | `<nixos-hardware/beagleboard/pocketbeagle>`             |
@@ -140,6 +143,8 @@ See code for all available configurations.
 | [Dell Latitude E7240](dell/latitude/e7240)                                        | `<nixos-hardware/dell/latitude/e7240>`                  |
 | [Dell Optiplex 3050](dell/optiplex/3050)                                          | `<nixos-hardware/dell/optiplex/3050>`                   |
 | [Dell Poweredge R7515](dell/poweredge/r7515)                                      | `<nixos-hardware/dell/poweredge/r7515>`                 |
+| [Dell Precision 3490, nvidia](dell/precision/3490/nvidia)                         | `<nixos-hardware/dell/precision/3490/nvidia>`           |
+| [Dell Precision 3490, intel](dell/precision/3490/intel)                           | `<nixos-hardware/dell/precision/3490/intel>`            |
 | [Dell Precision 3541](dell/precision/3541)                                        | `<nixos-hardware/dell/precision/3541>`                  |
 | [Dell Precision 5490](dell/precision/5490)                                        | `<nixos-hardware/dell/precision/5490>`                  |
 | [Dell Precision 5530](dell/precision/5530)                                        | `<nixos-hardware/dell/precision/5530>`                  |
@@ -180,12 +185,15 @@ See code for all available configurations.
 | [Framework 13th Gen Intel Core](framework/13-inch/13th-gen-intel)                 | `<nixos-hardware/framework/13-inch/13th-gen-intel>`     |
 | [Framework Intel Core Ultra Series 1](framework/13-inch/intel-core-ultra-series1) | `<nixos-hardware/framework/13-inch/intel-core-ultra-series1>`     |
 | [Framework 13 AMD Ryzen 7040 Series](framework/13-inch/7040-amd)                  | `<nixos-hardware/framework/13-inch/7040-amd>`           |
+| [Framework 13 AMD AI 300 Series](framework/13-inch/amd-ai-300-series)             | `<nixos-hardware/framework/13-inch/amd-ai-300-series>`  |
+| [Framework 12 13th Gen Intel Core](framework/12-inch/13th-gen-intel)              | `<nixos-hardware/framework/12-inch/13th-gen-intel>`     |
 | [Framework 16 AMD Ryzen 7040 Series](framework/16-inch/7040-amd)                  | `<nixos-hardware/framework/16-inch/7040-amd>`           |
 | [FriendlyARM NanoPC-T4](friendlyarm/nanopc-t4)                                    | `<nixos-hardware/friendlyarm/nanopc-t4>`                |
 | [FriendlyARM NanoPi R5s](friendlyarm/nanopi-r5s)                                  | `<nixos-hardware/friendlyarm/nanopi-r5s>`               |
 | [Focus M2 Gen 1](focus/m2/gen1)                                                   | `<nixos-hardware/focus/m2/gen1>`                        |
 | [Gigabyte B550](gigabyte/b550)                                                    | `<nixos-hardware/gigabyte/b550>`                        |
 | [Gigabyte B650](gigabyte/b650)                                                    | `<nixos-hardware/gigabyte/b650>`                        |
+| [GMKtec NucBox G3 Plus](gmktec/nucbox/g3-plus)                                    | `<nixos-hardware/gmktec/nucbox/g3-plus>`                |
 | [GPD MicroPC](gpd/micropc)                                                        | `<nixos-hardware/gpd/micropc>`                          |
 | [GPD P2 Max](gpd/p2-max)                                                          | `<nixos-hardware/gpd/p2-max>`                           |
 | [GPD Pocket 3](gpd/pocket-3)                                                      | `<nixos-hardware/gpd/pocket-3>`                         |
@@ -209,6 +217,7 @@ See code for all available configurations.
 | [Lenovo IdeaPad 3 15alc6](lenovo/ideapad/15alc6)                                  | `<nixos-hardware/lenovo/ideapad/15alc6>`                |
 | [Lenovo IdeaPad Gaming 3 15arh05](lenovo/ideapad/15arh05)                         | `<nixos-hardware/lenovo/ideapad/15arh05>`               |
 | [Lenovo IdeaPad Gaming 3 15ach6](lenovo/ideapad/15ach6)                           | `<nixos-hardware/lenovo/ideapad/15ach6>`                |
+| [Lenovo IdeaPad 5 Pro 14imh9](lenovo/ideapad/14imh9)                              | `<nixos-hardware/lenovo/ideapad/14imh9>`                |
 | [Lenovo IdeaPad 5 Pro 16ach6](lenovo/ideapad/16ach6)                              | `<nixos-hardware/lenovo/ideapad/16ach6>`                |
 | [Lenovo IdeaPad Z510](lenovo/ideapad/z510)                                        | `<nixos-hardware/lenovo/ideapad/z510>`                  |
 | [Lenovo IdeaPad Slim 5](lenovo/ideapad/slim-5)                                    | `<nixos-hardware/lenovo/ideapad/slim-5>`                |
@@ -221,6 +230,8 @@ See code for all available configurations.
 | [Lenovo Legion 5 Pro 16ach6h](lenovo/legion/16ach6h)                              | `<nixos-hardware/lenovo/legion/16ach6h>`                |
 | [Lenovo Legion 5 Pro 16ach6h (Hybrid)](lenovo/legion/16ach6h/hybrid)              | `<nixos-hardware/lenovo/legion/16ach6h/hybrid>`         |
 | [Lenovo Legion 5 Pro 16ach6h (Nvidia)](lenovo/legion/16ach6h/nvidia)              | `<nixos-hardware/lenovo/legion/16ach6h/nvidia>`         |
+| [Lenovo Legion 5 Pro 16arh7h (IGPU Only)](lenovo/legion/16arh7h/igpu-only)        | `<nixos-hardware/lenovo/legion/16arh7h/igpu-only>`      |
+| [Lenovo Legion 5 Pro 16arh7h (Hybrid)](lenovo/legion/16arh7h/hybrid)              | `<nixos-hardware/lenovo/legion/16arh7h/hybrid>`         |
 | [Lenovo Legion 7 16achg6 (Hybrid)](lenovo/legion/16achg6/hybrid)                  | `<nixos-hardware/lenovo/legion/16achg6/hybrid>`         |
 | [Lenovo Legion 7 16achg6 (Nvidia)](lenovo/legion/16achg6/nvidia)                  | `<nixos-hardware/lenovo/legion/16achg6/nvidia>`         |
 | [Lenovo Legion 7i Pro 16irx8h (Intel)](lenovo/legion/16irx8h)                     | `<nixos-hardware/lenovo/legion/16irx8h>`                |
@@ -230,7 +241,9 @@ See code for all available configurations.
 | [Lenovo Legion Y530 15ICH](lenovo/legion/15ich)                                   | `<nixos-hardware/lenovo/legion/15ich>`                  |
 | [Lenovo ThinkPad A475](lenovo/thinkpad/a475)                                      | `<nixos-hardware/lenovo/thinkpad/a475>`                 |
 | [Lenovo ThinkPad E14 (AMD)](lenovo/thinkpad/e14/amd)                              | `<nixos-hardware/lenovo/thinkpad/e14/amd>`              |
-| [Lenovo ThinkPad E14 (Intel)](lenovo/thinkpad/e14/intel)                          | `<nixos-hardware/lenovo/thinkpad/e14/intel>`            |
+| [Lenovo ThinkPad E14 (Intel - Gen 1)](lenovo/thinkpad/e14/intel)                  | `<nixos-hardware/lenovo/thinkpad/e14/intel>`            |
+| [Lenovo ThinkPad E14 (Intel - Gen 4)](lenovo/thinkpad/e14/intel/gen4)             | `<nixos-hardware/lenovo/thinkpad/e14/intel/gen4>`       |
+| [Lenovo ThinkPad E14 (Intel - Gen 6)](lenovo/thinkpad/e14/intel/gen6)             | `<nixos-hardware/lenovo/thinkpad/e14/intel/gen6>`       |
 | [Lenovo ThinkPad E15 (Intel)](lenovo/thinkpad/e15/intel)                          | `<nixos-hardware/lenovo/thinkpad/e15/intel>`            |
 | [Lenovo ThinkPad E470](lenovo/thinkpad/e470)                                      | `<nixos-hardware/lenovo/thinkpad/e470>`                 |
 | [Lenovo ThinkPad E495](lenovo/thinkpad/e495)                                      | `<nixos-hardware/lenovo/thinkpad/e495>`                 |
@@ -244,10 +257,14 @@ See code for all available configurations.
 | [Lenovo ThinkPad P14s AMD Gen 2](lenovo/thinkpad/p14s/amd/gen2)                   | `<nixos-hardware/lenovo/thinkpad/p14s/amd/gen2>`        |
 | [Lenovo ThinkPad P14s AMD Gen 3](lenovo/thinkpad/p14s/amd/gen3)                   | `<nixos-hardware/lenovo/thinkpad/p14s/amd/gen3>`        |
 | [Lenovo ThinkPad P14s AMD Gen 4](lenovo/thinkpad/p14s/amd/gen4)                   | `<nixos-hardware/lenovo/thinkpad/p14s/amd/gen4>`        |
+| [Lenovo ThinkPad P14s AMD Gen 5](lenovo/thinkpad/p14s/amd/gen5)                   | `<nixos-hardware/lenovo/thinkpad/p14s/amd/gen5>`        |
 | [Lenovo ThinkPad P14s Intel Gen 3](lenovo/thinkpad/p14s/intel/gen3)               | `<nixos-hardware/lenovo/thinkpad/p14s/intel/gen3>`      |
+| [Lenovo ThinkPad P14s Intel Gen 5](lenovo/thinkpad/p14s/intel/gen5)               | `<nixos-hardware/lenovo/thinkpad/p14s/intel/gen5>`      |
 | [Lenovo ThinkPad P16s AMD Gen 1](lenovo/thinkpad/p16s/amd/gen1)                   | `<nixos-hardware/lenovo/thinkpad/p16s/amd/gen1>`        |
 | [Lenovo ThinkPad P16s AMD Gen 2](lenovo/thinkpad/p16s/amd/gen2)                   | `<nixos-hardware/lenovo/thinkpad/p16s/amd/gen2>`        |
+| [Lenovo ThinkPad P16s Intel Gen 2](lenovo/thinkpad/p16s/intel/gen2)               | `<nixos-hardware/lenovo/thinkpad/p16s/intel/gen2>`      |
 | [Lenovo ThinkPad P1](lenovo/thinkpad/p1)                                          | `<nixos-hardware/lenovo/thinkpad/p1>`                   |
+| [Lenovo ThinkPad P43s](lenovo/thinkpad/p43s)                                      | `<nixos-hardware/lenovo/thinkpad/p43s>`                 |
 | [Lenovo ThinkPad P50](lenovo/thinkpad/p50)                                        | `<nixos-hardware/lenovo/thinkpad/p50>`                  |
 | [Lenovo ThinkPad P51](lenovo/thinkpad/p51)                                        | `<nixos-hardware/lenovo/thinkpad/p51>`                  |
 | [Lenovo ThinkPad P52](lenovo/thinkpad/p52)                                        | `<nixos-hardware/lenovo/thinkpad/p52>`                  |
@@ -282,16 +299,20 @@ See code for all available configurations.
 | [Lenovo ThinkPad W520](lenovo/thinkpad/w520)                                      | `<nixos-hardware/lenovo/thinkpad/w520>`                 |
 | [Lenovo ThinkPad X1 Yoga](lenovo/thinkpad/x1/yoga)                                | `<nixos-hardware/lenovo/thinkpad/x1/yoga>`              |
 | [Lenovo ThinkPad X1 Yoga Gen 7](lenovo/thinkpad/x1/yoga/7th-gen/)                 | `<nixos-hardware/lenovo/thinkpad/x1/yoga/7th-gen>`      |
+| [Lenovo ThinkPad X1 Yoga Gen 8](lenovo/thinkpad/x1/yoga/8th-gen/)                 | `<nixos-hardware/lenovo/thinkpad/x1/yoga/8th-gen>`      |
+| [Lenovo ThinkPad X1 (2nd Gen)](lenovo/thinkpad/x1/2nd-gen)                        | `<nixos-hardware/lenovo/thinkpad/x1/2nd-gen>`           |
 | [Lenovo ThinkPad X1 (6th Gen)](lenovo/thinkpad/x1/6th-gen)                        | `<nixos-hardware/lenovo/thinkpad/x1/6th-gen>`           |
 | [Lenovo ThinkPad X1 (7th Gen)](lenovo/thinkpad/x1/7th-gen)                        | `<nixos-hardware/lenovo/thinkpad/x1/7th-gen>`           |
 | [Lenovo ThinkPad X1 (9th Gen)](lenovo/thinkpad/x1/9th-gen)                        | `<nixos-hardware/lenovo/thinkpad/x1/9th-gen>`           |
 | [Lenovo ThinkPad X1 (10th Gen)](lenovo/thinkpad/x1/10th-gen)                      | `<nixos-hardware/lenovo/thinkpad/x1/10th-gen>`          |
 | [Lenovo ThinkPad X1 (11th Gen)](lenovo/thinkpad/x1/11th-gen)                      | `<nixos-hardware/lenovo/thinkpad/x1/11th-gen>`          |
 | [Lenovo ThinkPad X1 (12th Gen)](lenovo/thinkpad/x1/12th-gen)                      | `<nixos-hardware/lenovo/thinkpad/x1/12th-gen>`          |
+| [Lenovo ThinkPad X1 (13th Gen)](lenovo/thinkpad/x1/13th-gen)                      | `<nixos-hardware/lenovo/thinkpad/x1/13th-gen>`          |
 | [Lenovo ThinkPad X1 Extreme Gen 2](lenovo/thinkpad/x1-extreme/gen2)               | `<nixos-hardware/lenovo/thinkpad/x1-extreme/gen2>`      |
 | [Lenovo ThinkPad X1 Extreme Gen 3](lenovo/thinkpad/x1-extreme/gen3)               | `<nixos-hardware/lenovo/thinkpad/x1-extreme/gen3>`      |
 | [Lenovo ThinkPad X1 Extreme Gen 4](lenovo/thinkpad/x1-extreme/gen4)               | `<nixos-hardware/lenovo/thinkpad/x1-extreme/gen4>`      |
 | [Lenovo ThinkPad X1 Nano Gen 1](lenovo/thinkpad/x1-nano/gen1)                     | `<nixos-hardware/lenovo/thinkpad/x1-nano/gen1>`         |
+| [Lenovo ThinkPad X13s](lenovo/thinkpad/x13s)                                      | `<nixos-hardware/lenovo/thinkpad/x13s>`                 |
 | [Lenovo ThinkPad X13 Yoga](lenovo/thinkpad/x13/yoga)                              | `<nixos-hardware/lenovo/thinkpad/x13/yoga>`             |
 | [Lenovo ThinkPad X13 Yoga (3th Gen)](lenovo/thinkpad/x13/yoga/3th-gen)            | `<nixos-hardware/lenovo/thinkpad/x13/yoga/3th-gen>`     |
 | [Lenovo ThinkPad X13 (Intel)](lenovo/thinkpad/x13/intel)                          | `<nixos-hardware/lenovo/thinkpad/x13/intel>`            |
@@ -308,11 +329,13 @@ See code for all available configurations.
 | [Lenovo ThinkPad Z Series](lenovo/thinkpad/z)                                     | `<nixos-hardware/lenovo/thinkpad/z>`                    |
 | [Lenovo ThinkPad Z13 Gen 1](lenovo/thinkpad/z/gen1/z13)                           | `<nixos-hardware/lenovo/thinkpad/z/gen1/z13>`           |
 | [Lenovo ThinkPad Z13 Gen 2](lenovo/thinkpad/z/gen2/z13)                           | `<nixos-hardware/lenovo/thinkpad/z/gen2/z13>`           |
+| [Lenovo XiaoXin Pro 14imh9 2024](lenovo/ideapad/14imh9)                           | `<nixos-hardware/lenovo/ideapad/14imh9>`                |
 | [LENOVO Yoga 6 13ALC6 82ND](lenovo/yoga/6/13ALC6)                                 | `<nixos-hardware/lenovo/yoga/6/13ALC6>`                 |
 | [LENOVO Yoga Slim 7 Pro-X 14ARH7 82ND](lenovo/yoga/7/14ARH7/amdgpu)               | `<nixos-hardware/lenovo/yoga/7/14ARH7/amdgpu>`          |
 | [LENOVO Yoga Slim 7 Pro-X 14ARH7 82ND](lenovo/yoga/7/14ARH7/nvidia)               | `<nixos-hardware/lenovo/yoga/7/14ARH7/nvidia>`          |
 | [Lenovo Yoga Slim 7i Pro X 14IAH7 (Integrated)](lenovo/yoga/7/14IAH7/integrated)  | `<nixos-hardware/lenovo/yoga/7/14IAH7/integrated>`      |
 | [Lenovo Yoga Slim 7i Pro X 14IAH7 (Hybrid)](lenovo/yoga/7/14IAH7/hybrid)          | `<nixos-hardware/lenovo/yoga/7/14IAH7/hybrid>`          |
+| [Lenovo Yoga Slim 7 14ILL10](lenovo/yoga/7/14ILL10)                               | `<nixos-hardware/lenovo/yoga/7/14ILL10>`                |
 | [LENOVO Yoga 7 Slim Gen8](lenovo/yoga/7/slim/gen8)                                | `<nixos-hardware/lenovo/yoga/7/slim/gen8>`              |
 | [MSI B550-A PRO](msi/b550-a-pro)                                                  | `<nixos-hardware/msi/b550-a-pro>`                       |
 | [MSI B350 TOMAHAWK](msi/b350-tomahawk)                                            | `<nixos-hardware/msi/b350-tomahawk>`                    |
@@ -375,7 +398,9 @@ See code for all available configurations.
 | [Tuxedo InfinityBook v4](tuxedo/infinitybook/v4)                                  | `<nixos-hardware/tuxedo/infinitybook/v4>`               |
 | [TUXEDO Aura 15 - Gen1](tuxedo/aura/15/gen1)                                      | `<nixos-hardware/tuxedo/aura/15/gen1>`                  |
 | [TUXEDO InfinityBook Pro 14 - Gen7](tuxedo/infinitybook/pro14/gen7)               | `<nixos-hardware/tuxedo/infinitybook/pro14/gen7>`       |
-| [TUXEDO InfinityBook Pro 14 - Gen9 - INTEL](tuxedo/infinitybook/pro14/gen9-intel) | `<nixos-hardware/tuxedo/infinitybook/pro14/gen9-intel>` |
+| [TUXEDO InfinityBook Pro 14 - Gen9 - AMD](tuxedo/infinitybook/pro14/gen9/amd)     | `<nixos-hardware/tuxedo/infinitybook/pro14/gen9/amd>`   |
+| [TUXEDO InfinityBook Pro 14 - Gen9 - INTEL](tuxedo/infinitybook/pro14/gen9/intel) | `<nixos-hardware/tuxedo/infinitybook/pro14/gen9/intel>` |
 | [TUXEDO Pulse 14 - Gen3](tuxedo/pulse/14/gen3)                                    | `<nixos-hardware/tuxedo/pulse/14/gen3>`                 |
 | [TUXEDO Pulse 15 - Gen2](tuxedo/pulse/15/gen2)                                    | `<nixos-hardware/tuxedo/pulse/15/gen2>`                 |
+| [Xiaomi Redmibook 15 Pro 2021](xiaomi/redmibook/15-pro-2021)                      | `<nixos-hardware/xiaomi/redmibook/15-pro-2021>`         |
 | [Xiaomi Redmibook 16 Pro 2024](xiaomi/redmibook/16-pro-2024)                      | `<nixos-hardware/xiaomi/redmibook/16-pro-2024>`         |

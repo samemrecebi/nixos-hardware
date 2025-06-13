@@ -6,14 +6,15 @@
 }: {
   imports = [
     ../../common/cpu/amd
-    ../../common/cpu/amd/raphael/igpu.nix
+    ../../common/cpu/amd/zenpower.nix
     ../../common/cpu/amd/pstate.nix
+    ../../common/gpu/amd
     ../../common/gpu/nvidia
     ../../common/gpu/nvidia/prime.nix
-    ../../common/hidpi.nix
+    ../../common/gpu/nvidia/ada-lovelace
     ../../common/pc/laptop
-    ../../common/pc/ssd
-    ../battery.nix
+    ../../common/pc/laptop/ssd
+    ../../common/hidpi.nix
   ];
 
   boot.kernelPackages = lib.mkIf (lib.versionOlder pkgs.linux.version "6.6") pkgs.linuxPackages_latest;

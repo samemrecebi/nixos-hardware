@@ -1,7 +1,8 @@
 {
-  imports = [ ../. ];
-
-  boot.kernelParams = [
-    "i915.enable_guc=2"
+  imports = [
+    ./cpu-only.nix
+    ../../../gpu/intel/comet-lake
   ];
+
+  hardware.intelgpu.vaapiDriver = "intel-media-driver";
 }

@@ -1,19 +1,21 @@
-{ pkgs, lib, ...}:
+{ pkgs, lib, ... }:
 
 {
   imports = [
     ../../../../../lenovo/thinkpad/z/gen2
   ];
 
-  sound.extraConfig = ''
-    pcm.!default {
-        type plug
-        slave.pcm "hw:1,0"
-    }
+  environment.etc."asound.conf".source = ./asound.conf;
 
-    ctl.!default {
-        type hw
-        card 1
-    }
-  '';
+  networking =
+    let
+      fcc_unlock_script = rec {
+        id = "2c7c:030a";
+        path = "${pkgs.modemmanager}/share/ModemManager/fcc-unlock.available.d/${id}";
+      };
+    in
+    if lib.versionOlder lib.version "25.05pre" then
+      { networkmanager.fccUnlockScripts = [ fcc_unlock_script ]; }
+    else
+      { modemmanager.fccUnlockScripts = [ fcc_unlock_script ]; };
 }

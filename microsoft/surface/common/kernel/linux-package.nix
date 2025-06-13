@@ -3,13 +3,12 @@
   fetchurl,
   buildLinux,
   linuxPackagesFor,
+  repos,
 }:
 
 let
   inherit (builtins) elem;
   inherit (lib) recurseIntoAttrs types versions;
-
-  repos = pkgs.callPackage ../repos.nix {};
 
   linuxPackage =
     { url ? "mirror://kernel/linux/kernel/v${versions.major version}.x/linux-${version}.tar.xz",
@@ -48,7 +47,7 @@ let
 
   isVersionOf = kernelVersion: version:
     # Test if the provided version is considered one of the list of versions from above:
-    elem version (versionsOf version);
+    elem kernelVersion (versionsOf version);
 
 in {
   inherit linuxPackage repos surfacePatches versionsOf isVersionOf versionsOfEnum;
